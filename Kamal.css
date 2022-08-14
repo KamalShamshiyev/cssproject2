@@ -1,0 +1,335 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.row{
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+}
+.row .demo{
+    display: flex;
+}
+.row .demo i{
+    margin: 16px;
+    color: goldenrod;
+}
+.row .demo p{
+    color: white;
+    font-family: sans-serif;
+}
+.row .demo2{
+    display: flex;
+    justify-content: flex-end;
+}
+.row .demo2 i{
+    color: whitesmoke;
+    padding: 15px;
+}
+.row2{
+    display: flex;
+}
+.row2 div img{
+    margin: 30px;
+}
+.row2 .atom ul{
+    list-style-type: none;
+    display: flex;
+}
+.row2 .atom ul li{
+    padding: 30px 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row2 .atom2 {
+    height: 50px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(204, 141, 47);
+}
+.item .of img{
+    border-radius: none;
+    width: 100%;
+    height: 667px;
+}
+.item .of1{
+    display: flex;
+}
+.item .of1 .on{
+    margin: 100px 100px;
+}
+.item .of1 .on p{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.item .of1 .on1{
+    text-align: center;
+    background-color: goldenrod;
+    width: 200px;
+    height: 70px;
+    border-radius: 55px;
+    margin-left: 607px;
+    margin-top: 86px;
+}
+.item .of1 .on1 p{
+    margin-top: 26px;
+}
+.item .of2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.item .of2 .box img{
+    width: 100%;
+    padding: 15px;
+}
+.item .of2 .box div{
+    display: flex;
+}
+.item .of2 .box .ok .tim{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item .of2 .box .ok .tim2{
+    margin-left: 244px;
+    color: goldenrod;
+    font-size: 20px;
+}
+.of3 .content{
+    display: flex;
+    justify-content: center;
+}
+.of3 .content h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+}
+.of3{
+    background-color: rgb(230, 230, 230);
+}
+.of3 .text{
+    display: flex;
+    padding-bottom: 50px;
+}
+.of3 .text .tem{
+    border: 1px solid grey;
+    padding: 54px;
+    border-radius: 10px;
+    margin: 15px;
+}
+.of3 .text .tem i{
+    font-size: 30px;
+    color: goldenrod;
+}
+.of4 .sec{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.of4 .sec p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.item .of5 .old{
+    display: flex;
+    padding: 20px;
+}
+.item .of5 .pro img{
+    width: 100%;
+    padding: 15px;
+}
+.item .of5 .pro .chen .ron{
+    display: flex;
+    text-align: center;
+    margin-left: 39px;
+}
+.item .of5 .pro .chen .ron h1{
+    margin: 0px;
+    width: 125px;
+    height: 30px;
+    background-color: goldenrod;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+    padding-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item .of5 .pro .chen .ron p{
+    margin-left: 325px;
+    margin-top: 4px;
+    color: grey;
+    font-size: 15px;
+}
+.item .of5 .pro .chen p{
+    margin-left: 37px;
+    font-size: 20px;
+}
+.item .of5 .pro .chen hr{
+    width: 619px;
+}
+.chen2{
+    display: flex;
+}
+.chen2 i{
+    margin-left: 372px;
+    margin-top: 16px;
+}
+.chen2 p{
+    margin-left: 37px;
+}
+.of6 .gold{
+    height: 50px;
+    text-align: center;
+    background-color: goldenrod;
+    border-radius: 30px;
+    margin-left: 535px;
+    margin-top: 133px;
+}
+.of6 .gold p{
+    padding: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+}
+.of7{
+    background-color: rgb(247, 245, 245);
+    margin-top: 50px;
+    padding: 80px;
+}
+.of7 .lan {
+    margin-left: 422px;
+    padding-top: 50px;
+    text-align: center;
+}
+.of7 .lan h1{
+    font-weight: normal;
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.of7 .lan2{
+    display: flex;
+    padding: 100px;
+}
+.of7 .lan2 .text-con{
+    padding: 25px;
+    margin-top: 25px;
+}
+.of7 .lan2 .text-con p{
+    font-size: 27px;
+    color: grey;
+}
+.of7 .lan3{
+    margin-left: 337px;
+    margin-top: -140px;
+}
+.of7 .lan3 h1{
+    color: rgb(15 3 122);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.of7 .lan3 p{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.of8 .org .iframe img{
+    width: 100%;
+    margin: -3px;
+    padding: 0px;
+}
+.of8 .org{
+    display: flex;
+    flex-wrap: wrap;
+}
+.foot{
+    background-color: #252525;
+}
+footer{
+    background-color: black;
+}
+.foot .don{
+    display: flex;
+    padding-bottom: 80px;
+}
+.buy2{
+    border: 2px solid white;
+    border-radius: 40px;
+    height: 50px;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 140px;
+}
+.buy2 p{
+    color: white;
+}
+.buy h1{
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-left: 30px;
+}
+.buy p{
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.foot2{
+    display: flex;
+    padding: 40px 20px;
+}
+.foot2 .sealine img{
+    padding-top: 30px;
+}
+.foot2 .all{
+    text-align: center;
+    padding-top: 25px;
+}
+.foot2 .all p{
+    color: white;
+}
+.foot2 .icon{
+    margin-top: 30px;
+}
+.foot2 .icon i{
+    color: white;
+    background-color: #252525;
+    border-radius: 100%;
+    margin: 7px;
+    padding: 33px;
+    font-size: 10px;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
